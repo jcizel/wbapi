@@ -1,0 +1,19 @@
+Package: wbapi
+Title: wbapi: R Interface to the World Bank API
+Version: 0.1
+Date: 2015-02-17
+Authors@R: person("Janko", "Cizel", , "jcizel@gmail.com", role = c("aut", "cre"))
+Maintainer: Janko Cizel <jcizel@gmail.com>
+Description: This package provides an interface to the World Bank API. 
+Depends: R (>= 3.1.1),
+	 XML,
+	 RCurl,
+	 data.table,
+	 pipeR,
+	 rlist,
+	 dplyr,
+	 rjson,
+	 stringi
+License: MIT
+LazyData: true
+Suggests: testthat
